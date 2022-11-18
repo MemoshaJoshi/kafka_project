@@ -1,0 +1,361 @@
+{
+    "type": "struct",
+    "fields": [
+        {
+            "name": "count",
+            "type": "long",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "data",
+            "type": {
+                "type": "array",
+                "elementType": {
+                    "type": "struct",
+                    "fields": [
+                        {
+                            "name": "alert",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "cdi",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "city",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "code",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "continent",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "country",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "date",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "depth",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "detailUrl",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "dmin",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "felt",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "gap",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "geometryType",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "id",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "ids",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "latitude",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "locality",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "location",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "locationDetails",
+                            "type": {
+                                "type": "array",
+                                "elementType": {
+                                    "type": "struct",
+                                    "fields": [
+                                        {
+                                            "name": "adminLevel",
+                                            "type": "string",
+                                            "nullable": true,
+                                            "metadata": {}
+                                        },
+                                        {
+                                            "name": "description",
+                                            "type": "string",
+                                            "nullable": true,
+                                            "metadata": {}
+                                        },
+                                        {
+                                            "name": "geonameId",
+                                            "type": "string",
+                                            "nullable": true,
+                                            "metadata": {}
+                                        },
+                                        {
+                                            "name": "id",
+                                            "type": "string",
+                                            "nullable": true,
+                                            "metadata": {}
+                                        },
+                                        {
+                                            "name": "name",
+                                            "type": "string",
+                                            "nullable": true,
+                                            "metadata": {}
+                                        },
+                                        {
+                                            "name": "wikidataId",
+                                            "type": "string",
+                                            "nullable": true,
+                                            "metadata": {}
+                                        }
+                                    ]
+                                },
+                                "containsNull": true
+                            },
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "longitude",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "magType",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "magnitude",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "mmi",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "net",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "nst",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "place",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "postcode",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "rms",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "sig",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "sources",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "status",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "subnational",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "time",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "timezone",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "title",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "tsunami",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "type",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "types",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "updated",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "url",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        },
+                        {
+                            "name": "what3words",
+                            "type": "string",
+                            "nullable": true,
+                            "metadata": {}
+                        }
+                    ]
+                },
+                "containsNull": true
+            },
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "errorCode",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "errors",
+            "type": {
+                "type": "array",
+                "elementType": "string",
+                "containsNull": true
+            },
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "friendlyError",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "httpStatus",
+            "type": "long",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "noun",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "result",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "verb",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        }
+    ]
+}
