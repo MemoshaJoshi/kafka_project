@@ -47,8 +47,7 @@ average_magnitude_df.select(average_magnitude_df['avg(magnitude)'])
 average_magnitude_df.show()
 
 
-average_magnitude_df.write.format('jdbc').options(url='jdbc:postgresql://localhost:5432/kafka', driver= 'org.postgresql.Driver',
-                                                    dbtable='earthquake_table_1', user='memosha',password='1234').mode('overwrite').save()
+average_magnitude_df.write.format('jdbc').options(url='jdbc:postgresql://localhost:5432/kafka', driver= 'org.postgresql Driver', dbtable='earthquake_table_1', user='memosha',password='1234').mode('overwrite').save()
 
 
 # 2. Highest magnitude for each country in the month of November in 2022.
